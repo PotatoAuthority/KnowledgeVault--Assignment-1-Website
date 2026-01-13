@@ -154,12 +154,16 @@ nav button{
 
 
 /* Note section */
+.notes{
+    background-color: #f7f6f28d;
+}
 
 .notes-container{
     max-width: 1360px;
     margin: 0px auto;
     /* border: 1px solid red; */
     padding-top: 40px;
+    
 }
 
 .notes-container h1{
@@ -202,8 +206,9 @@ nav button{
     /* border: 1px solid red; */
     max-width: 322px;
     padding: 69.5px 24px 0px 24px;
-    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 -6px 5px rgba(0, 0, 0, 0.08);
     border-radius: 8px 8px 0 0;
+    background-color: #ffffff;
 }
 
 .note-card img{
