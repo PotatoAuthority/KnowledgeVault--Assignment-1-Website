@@ -64,14 +64,36 @@ nav button{
     padding: 115.5px 120px 179.5px 120px;
 }
 
-.early-access h3{
-    background-color: white;
-    max-width: 229px;
+.early-access img{
+    width: 16px;
+    height: 16px;
+}
+
+.early-access{
     margin: 0px auto;
-    border-radius: 1000px;
+    display: flex;
+    /* border: 3px solid red; */
+    max-width: 229px;
+    max-height: 35px;
+    justify-content: center;
     align-items: center;
-    padding: 8px 12px;
     margin-bottom: 16px;
+
+    padding: 8px 12px;
+    gap: 6px;
+    background-color: white;
+    border-radius: 1000px;
+    
+}
+
+.early-access h3{
+    
+    /* max-width: 229px; */
+    
+    
+    /* align-items: center; */
+    /* padding: 8px 12px; */
+    /* margin-bottom: 16px; */
 }
 
 .early-access h3{
@@ -109,7 +131,7 @@ nav button{
 
 .banner-button-container button{
     padding: 16px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #ffffff;
     background-color: #469165;
@@ -331,4 +353,11 @@ footer p{
     line-height: 24px;
     color: #FAFAFA;
     margin-top: 30px;
+}
+
+/* bug fix */
+
+#transparent-button{
+    border: 1px solid white;
+    background-color: #00000000;
 }
