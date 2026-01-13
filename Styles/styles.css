@@ -45,6 +45,12 @@ nav ul a{
     font-weight:500;
 }
 
+nav ul a:hover {
+    text-shadow: 0 0 8px #469165;
+}
+
+
+
 nav img{
     width: 139px;
 }
@@ -368,4 +374,8 @@ footer p{
 #transparent-button{
     border: 1px solid white;
     background-color: #00000000;
+}
+
+button:hover{
+    background-color: #627382;
 }
