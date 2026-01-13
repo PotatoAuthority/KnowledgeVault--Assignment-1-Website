@@ -226,6 +226,8 @@ nav button{
 }
 
 .bren-text li{
+
+    list-style: none;
     display: flex;
     gap: 5px;
     align-items: center;
@@ -246,6 +248,8 @@ nav button{
     background-color: #F7F6F2;
     text-align: center;
     padding: 80px 0px;
+
+    margin-bottom: 120px;
 }
 
 .challenge-box h1{
@@ -275,4 +279,56 @@ nav button{
 
 .message{
     line-height: 20px;
+    margin-bottom: 0px;
+}
+
+/* footer */
+
+footer{
+    background-color: #001931;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-info{
+    max-width: 1360px;
+    /* border: 2px solid white; */
+    margin: 0px auto;
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.foot-logo{
+    width: 127.25px;
+    height: 56px;
+}
+
+.footer-info h4{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.social-logos img{
+    width: 20px;
+}
+
+footer hr{
+    max-width: 1360px;
+    margin: 0px auto;
+    border: none;
+    height: 1.5px;
+    background-color: #62738265;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin-top: 30px;
 }
