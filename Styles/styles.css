@@ -3,6 +3,13 @@
     padding: 0px;
 }
 
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
 
 .inter{
   font-family: "Inter", sans-serif;
@@ -215,7 +222,7 @@ nav button{
     margin: 0px auto;
     display: flex;
     gap: 60px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -272,6 +279,7 @@ nav button{
     padding: 80px 0px;
 
     margin-bottom: 120px;
+    border-radius: 12px;
 }
 
 .challenge-box h1{
