@@ -2,8 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-.open-sans{
-  font-family: "Open Sans", sans-serif;
+
+
+.inter{
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -178,3 +180,60 @@ nav button{
     margin-bottom: 16px;
     border-radius: 50%;
 }
+
+/* Second Brain */
+
+.second-bren{
+    padding: 120px;
+}
+
+.bren-container{
+    max-width: 1360px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bren-image{
+    width: 600px;
+    border-radius: 12px;
+}
+
+.bren-text h3{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.bren-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.bren-text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+    
+}
+
+.bren-text li{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 16px;
+
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #001931;
+}
+
